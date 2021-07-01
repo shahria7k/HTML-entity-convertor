@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+
+		<link
+			rel="shortcut icon"
+			href="https://static.wixstatic.com/media/4cbe8d_f1ed2800a49649848102c68fc5a66e53~mv2.gif"
+			type="image/x-icon"
+		/>
+	</head>
+	<body>
+		<style>
+			body {
+				display: grid;
+				width: 100vw;
+				height: 100vh;
+				place-items: center;
+			}
+			div {
+				display: flex;
+				flex-direction: column;
+			}
+			input {
+				width: 400px;
+				padding: 10px;
+				line-height: 30px;
+				/* background: url("https://static.wixstatic.com/media/4cbe8d_f1ed2800a49649848102c68fc5a66e53~mv2.gif");
+				background-size: cover; */
+			}
+			button {
+				width: 100px;
+				margin: 0 auto;
+				margin-top: 30px;
+			}
+		</style>
+		<div id="container">
+			<input type="text" id="input" />
+			<button id="submit" onclick="data()">Submit</button>
+			<code id="output"></code>
+		</div>
+		<p id="output"></p>
+		<p data-meta="for test purpose">
+			&lt;form id=&quot;form1&quot;&gt; &lt;input type=&quot;text&quot;
+			id=&quot;input&quot; /&gt; &lt;button id=&quot;submit&quot;
+			onclick=&quot;data()&quot;&gt;Submit&lt;/button&gt; &lt;/form&gt;
+		</p>
+		<script src="app.js"></script>
+	</body>
+</html>
